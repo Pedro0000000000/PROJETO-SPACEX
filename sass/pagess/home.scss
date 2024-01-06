@@ -1,0 +1,142 @@
+.container00 {
+  &.container01 {
+    background-image: url(../../imagens/home/01.jpg);
+  }
+
+  &.container02 {
+    background-image: url(../../imagens/home/03.jpg);
+  }
+
+  &.container03 {
+    background-image: url(../../imagens/home/02.gif);
+  }
+
+  &.container04 {
+    background-image: url(../../imagens/home/04.jpg);
+  }
+}
+
+body {
+  font: 16px/26px D-DIN-Regular, arial, Verdana, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+.titlePadding {
+  padding-top: 358px;
+  max-width: 520px;
+  margin-left: 3%;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: $margin-bottom;
+}
+
+.mediumTitle {
+  position: relative;
+  font-family: "D-DIN-Bold", Arial, Verdana, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 48px;
+  color: #ffffff;
+  margin: auto;
+}
+
+.launchComing {
+  position: relative;
+  font-family: "D-DIN-Medium", Arial, Verdana, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 38px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+@media (max-width: 1440px) {
+  // .titlePadding {
+  //   padding-top: 350px;
+  // }
+
+  .arrowDown {
+    margin-top: 30px;
+  }
+}
+
+// @media (max-width: 1024px) {
+//   .arrowDown {
+//     margin-top: 150px;
+//   }
+// }
+
+@media (max-width: 768px) {
+  .titlePadding {
+    padding-top: 250px;
+  }
+
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 35px;
+  }
+
+  // .arrowDown {
+  //   margin-top: 150px;
+  // }
+}
+
+@media (max-width: 405px) {
+  .header {
+    margin-top: -20px;
+    align-items: center;
+  }
+
+  .logoPc {
+    width: 220px;
+  }
+
+  .p22 {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar-brand {
+    margin: 0px;
+  }
+
+  .titlePadding {
+    padding-top: 150px;
+  }
+
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 30px;
+  }
+
+  .arrowDown {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 347px) {
+  .titlePadding {
+    padding-top: 100px;
+  }
+
+  .navbar-brand {
+    margin: 0px auto 0px auto;
+  }
+
+  .p22 {
+    margin: 5px auto 0px auto;
+  }
+
+  .arrowDown {
+    margin-top: 100px;
+  }
+}

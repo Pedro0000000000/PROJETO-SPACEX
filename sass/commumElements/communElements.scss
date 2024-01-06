@@ -1,0 +1,103 @@
+.header {
+  font-size: 13px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+#navItem-9 {
+  &:hover {
+    color: $copy-color;
+  }
+}
+
+#navItem {
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  // align-items: center;
+  // margin-top: 150px;
+}
+
+.logoPc {
+  width: 220px;
+  // margin-left: -15px;
+  // margin-right: 0px;
+  margin-top: -20px;
+}
+
+#button {
+  padding: $padding-button;
+  border: 1px solid #ffffff;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+
+  .copyOBC {
+    color: $copy-color;
+  }
+
+  .rede {
+    margin-right: 25px;
+  }
+}
+
+.downloadDesc {
+  background-color: rgb(0, 0, 0);
+  height: 85vh;
+  padding-top: 240px;
+}
+.emailPH {
+  text-decoration: none;
+  color: brown;
+
+  &:hover {
+    color: rgb(91, 0, 236);
+  }
+}
+
+// Media Query
+
+@media (max-width: 405px) {
+  .logoPc {
+    width: 190px;
+    margin-top: 15px;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+}
+
+// @media (max-width: 330px) {
+//   .footer a {
+//     margin-right: 0px;
+//   }
+// }
